@@ -26,8 +26,8 @@ namespace Fabrikam
     [Guid(EnterpriseServer.ClassId), ComVisible(true)]
     public sealed class EnterpriseServer : IFoo
     {
-        internal const string ClassId = "cc998934-4d63-481e-b7fa-fe65396c373c";
-        internal const string InterfaceId = "96f6f9c8-253d-47f3-8d1e-55f9d5a42a10";
+        internal const string ClassId = "1E66A2A2-0D12-4316-A97D-11B87332973C";
+        internal const string InterfaceId = "70C0D02F-F21A-4EE1-A4FE-9A21639452F3";
 
         public EnterpriseServer()
         {
@@ -36,6 +36,7 @@ namespace Fabrikam
 
         public IList<String> TestMethod(String input)
         {
+            //Console.Beep();
             var list = new List<String>();
             list.Add("Foo");
             list.Add("Bar");

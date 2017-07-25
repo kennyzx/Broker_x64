@@ -30,7 +30,8 @@
       <InProcessServer>
         <Path>clrhost.dll</Path>
         <ActivatableClass ActivatableClassId="Fabrikam.EnterpriseServer" ThreadingModel="both">
-          <ActivatableClassAttribute Name="DesktopApplicationPath" Type="string" Value="c:\test" />
+          <ActivatableClassAttribute Name="DesktopApplicationPath" Type="string" 
+                                     Value="C:\Users\newki_000\Documents\GitHub\Broker_x64\IPCServer" />
         </ActivatableClass>
       </InProcessServer>
     </Extension>

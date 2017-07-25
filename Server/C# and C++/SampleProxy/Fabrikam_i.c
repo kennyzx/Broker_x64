@@ -6,10 +6,10 @@
 
 
  /* File created by MIDL compiler version 8.00.0603 */
-/* at Wed Mar 05 09:50:52 2014
+/* at Mon Jul 24 17:40:51 2017
  */
-/* Compiler settings for C:\Users\eho\AppData\Local\Temp\Fabrikam.idl-49f65c60:
-    Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 
+/* Compiler settings for C:\Users\NEWKI_~1\AppData\Local\Temp\Fabrikam.idl-6013666a:
+    Oicf, W1, Zp8, env=Win64 (32b run), target_arch=AMD64 8.00.0603 
     protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
@@ -76,7 +76,7 @@ MIDL_DEFINE_GUID(IID, IID___FIAsyncOperationCompletedHandler_1_int,0xd60cae9d,0x
 MIDL_DEFINE_GUID(IID, IID___FIAsyncOperation_1_int,0x968b9665,0x06ed,0x5774,0x8f,0x53,0x8e,0xde,0xab,0xd5,0xf7,0xb5);
 
 
-MIDL_DEFINE_GUID(IID, IID___x_Fabrikam_CIFoo,0x96F6F9C8,0x253D,0x47F3,0x8D,0x1E,0x55,0xF9,0xD5,0xA4,0x2A,0x10);
+MIDL_DEFINE_GUID(IID, IID___x_Fabrikam_CIFoo,0x70C0D02F,0xF21A,0x4EE1,0xA4,0xFE,0x9A,0x21,0x63,0x94,0x52,0xF3);
 
 #undef MIDL_DEFINE_GUID
 
