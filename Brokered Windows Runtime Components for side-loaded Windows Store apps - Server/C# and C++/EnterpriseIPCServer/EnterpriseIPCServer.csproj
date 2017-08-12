@@ -137,7 +137,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>call "$(DevEnvDir)..\..\vc\vcvarsall.bat" x64
+    <PostBuildEvent>call "$(DevEnvDir)..\..\vc\vcvarsall.bat" x86
 
 md "$(TargetDir)"\impl
 md "$(TargetDir)"\reference
@@ -151,7 +151,7 @@ xcopy /y "$(TargetDir)*.pdb" "$(TargetDir)impl"
 
 winmdidl /nosystemdeclares /metadata_dir:C:\Windows\System32\Winmetadata "$(TargetPath)"
 
-midl /metadata_dir "%25WindowsSdkDir%25References\CommonConfiguration\Neutral" /iid "$(SolutionDir)SampleProxy\$(TargetName)_i.c" /env x64 /x64 /h "$(SolutionDir)SampleProxy\$(TargetName).h" /winmd "$(TargetName).winmd" /W1 /char signed /nologo /winrt /dlldata "$(SolutionDir)SampleProxy\dlldata.c" /proxy "$(SolutionDir)SampleProxy\$(TargetName)_p.c"  "$(TargetName).idl"
+midl /metadata_dir "%25WindowsSdkDir%25References\CommonConfiguration\Neutral" /iid "$(SolutionDir)SampleProxy\$(TargetName)_i.c" /env win32 /win32 /h "$(SolutionDir)SampleProxy\$(TargetName).h" /winmd "$(TargetName).winmd" /W1 /char signed /nologo /winrt /dlldata "$(SolutionDir)SampleProxy\dlldata.c" /proxy "$(SolutionDir)SampleProxy\$(TargetName)_p.c"  "$(TargetName).idl"
 
 mdmerge -n 1 -i "$(ProjectDir)bin\$(PlatformName)\$(ConfigurationName)" -o "$(TargetDir)reference" -metadata_dir "%25WindowsSdkDir%25References\CommonConfiguration\Neutral" -partial
 
