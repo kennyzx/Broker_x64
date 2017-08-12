@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseIPCServer", "EnterpriseIPCServer\EnterpriseIPCServer.csproj", "{816C8496-C04B-4445-BAE8-45D8BA816CFA}"
 EndProject
@@ -53,7 +52,7 @@ Global
 		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|Win32.Build.0 = Debug|Win32
-		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|x64.ActiveCfg = Debug|Win32
+		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|x64.ActiveCfg = Debug|x64
 		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|x86.ActiveCfg = Debug|Win32
 		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Debug|x86.Build.0 = Debug|Win32
 		{6A3AA4B3-0A47-4022-83AD-E2B854923338}.Release|Any CPU.ActiveCfg = Release|Win32
