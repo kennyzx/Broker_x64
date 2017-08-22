@@ -6,4 +6,4 @@ Microsoft's documentation is not clear about how to build the winmd file, and ho
 
 You can download the [original sample](https://code.msdn.microsoft.com/windowsapps/Brokered-Windows-Runtime-9d64cada) from Microsoft, or you can use the zip files in this repository. 
 
-This sample is for Visual Studio 2013/Windows Store app 8.1 only. There are other samples for Visual Studio 2015/17 and UWP app.
+This sample is for Visual Studio 2013/Windows Store app 8.1 only. There are other Visual Studio 2015/17 samples on the web for UWP app but the steps to compile could be different.
